@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Test;
 
 namespace ConsAppForTraining
 {
@@ -18,9 +19,11 @@ namespace ConsAppForTraining
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine("b = {0}", b);
 
-            if(a<b)
+            Console.WriteLine(MyMath.WiekszeMniejsze(a, b));
+
+            if (a < b)
             {
-                Console.WriteLine("{0} < {1}", a,b);
+                Console.WriteLine("{0} < {1}", a, b);
             }
             else
             {

@@ -23,16 +23,4 @@ namespace Test
             }
         }
     }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int a = 5;
-            int b = 55;
-
-            MyMath.WiekszeMniejsze(a, b);
-            Console.ReadKey();
-        }
-    }
 }
