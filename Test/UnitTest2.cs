@@ -10,7 +10,7 @@ namespace Test
     public class UnitTest2
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod2()
         {
             //arrange
             int a = 11;
