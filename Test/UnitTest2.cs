@@ -1,12 +1,15 @@
 ﻿using System;
-//using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Xunit;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+/// <summary>
+/// test written in Microsoft.VisualStudio.TestTools.UnitTesting
+/// </summary>
 namespace Test
 {
-    public class UnitTest1
+    [TestClass]
+    public class UnitTest2
     {
-        [Fact]
+        [TestMethod]
         public void TestMethod1()
         {
             //arrange
@@ -15,7 +18,7 @@ namespace Test
             //act
             String wynik = MyMath.WiekszeMniejsze(a, b);
             //assert
-            Assert.Equal("11>7",wynik);
+            Assert.AreEqual("11>7", wynik);
         }
     }
 }
