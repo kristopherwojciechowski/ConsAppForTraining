@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsAppForTraining", "ConsAppForTraining\ConsAppForTraining.csproj", "{253E091A-02B5-4705-9DE3-FF8030F28C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{216B051B-C3B2-4A77-8BD8-D5C731DD1800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{253E091A-02B5-4705-9DE3-FF8030F28C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{253E091A-02B5-4705-9DE3-FF8030F28C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{253E091A-02B5-4705-9DE3-FF8030F28C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216B051B-C3B2-4A77-8BD8-D5C731DD1800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216B051B-C3B2-4A77-8BD8-D5C731DD1800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216B051B-C3B2-4A77-8BD8-D5C731DD1800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216B051B-C3B2-4A77-8BD8-D5C731DD1800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

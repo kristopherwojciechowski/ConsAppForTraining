@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Test;
 
 namespace ConsAppForTraining
 {
@@ -19,6 +20,7 @@ namespace ConsAppForTraining
             //int b = int.Parse(Console.ReadLine());
             //Console.WriteLine("b = {0}", b);
 
+<<<<<<< HEAD
             //int mniejsza, wieksza;
             //if (a > b)
             //{
@@ -62,6 +64,15 @@ namespace ConsAppForTraining
             //}
 
             for (int j = 0; j < map.GetLength(1); j++)
+=======
+            Console.WriteLine(MyMath.WiekszeMniejsze(a, b));
+
+            if (a < b)
+            {
+                Console.WriteLine("{0} < {1}", a, b);
+            }
+            else
+>>>>>>> fcc2ab46e2e2598a5a90e30df8606e247a72cb18
             {
                 Console.WriteLine("a" + map[j, 0]);
                 for(int i = 0; i<map.GetLength(j); i++)
