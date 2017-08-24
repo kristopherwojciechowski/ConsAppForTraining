@@ -13,7 +13,7 @@ namespace ConsAppForTraining
             int a = 0, b = 0;
             for (int j = 0; j < field.GetLength(0); j++)
             {
-                for (int i = 0; i < field.GetLength(j); i++)
+                for (int i = 0; i < field.GetLength(0); i++)
                 {
                     if (field[j, i] != 0)
                     {

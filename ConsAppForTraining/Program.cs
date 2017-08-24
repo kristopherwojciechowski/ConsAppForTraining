@@ -20,7 +20,6 @@ namespace ConsAppForTraining
             //int b = int.Parse(Console.ReadLine());
             //Console.WriteLine("b = {0}", b);
 
-<<<<<<< HEAD
             //int mniejsza, wieksza;
             //if (a > b)
             //{
@@ -46,42 +45,23 @@ namespace ConsAppForTraining
 
             #region mine field
 
-            int[,] map = new int[,] { { 1, 0, 3 }, { 0, 0, 0 }, { 0, 0, 111 } };
+            int[,] map = new int[,] { { 1, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
 
             Console.WriteLine(map[2, 2]);
-            //int aa = Convert.ToInt32(Math.Sqrt(map.Length));
-            //for (int j = 0; j <= map.GetLength(1) ; j++)
-            //{
-            //    for (int i = 0; i < map.GetLength(j); i++)
-            //    {
-            //        Console.WriteLine("element {0}; j = {1}; i = {2}", map[j, i],j,i);
 
-            //        if (map[j,i] != 0)
-            //        {
-            //            Console.WriteLine("element [{0},{1}] jest rozny od zera", j,i);
-            //        }
-            //    }
-            //}
 
-            for (int j = 0; j < map.GetLength(1); j++)
-
-            Console.WriteLine(MyMath.WiekszeMniejsze(a, b));
-
-            if (a < b)
+            for(int i = 0; i< map.GetLength(0); i++)
             {
-                Console.WriteLine("{0} < {1}", a, b);
-            }
-            else
-            {
-                Console.WriteLine("a" + map[j, 0]);
-                for(int i = 0; i<map.GetLength(j); i++)
+                for(int j=0; j<map.GetLength(0); j++)
                 {
-                    Console.WriteLine(map[j, i]);
-
+                    if (map[i, j] != 0)
+                    {
+                        Console.WriteLine("element [{0},{1}] jest rozny od zera", i, j);
+                    }
                 }
-
             }
-            //Console.WriteLine("polozenie miny = " + MineField.MineLocation(map));
+
+            Console.WriteLine("Metoda MineLocation => " + MineField.MineLocation(map));
 
             #endregion
             Console.ReadKey();
