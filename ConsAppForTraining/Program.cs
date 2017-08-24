@@ -64,7 +64,7 @@ namespace ConsAppForTraining
             //}
 
             for (int j = 0; j < map.GetLength(1); j++)
-=======
+
             Console.WriteLine(MyMath.WiekszeMniejsze(a, b));
 
             if (a < b)
@@ -72,7 +72,6 @@ namespace ConsAppForTraining
                 Console.WriteLine("{0} < {1}", a, b);
             }
             else
->>>>>>> fcc2ab46e2e2598a5a90e30df8606e247a72cb18
             {
                 Console.WriteLine("a" + map[j, 0]);
                 for(int i = 0; i<map.GetLength(j); i++)
