@@ -48,19 +48,29 @@ namespace ConsAppForTraining
 
             Console.WriteLine(map[2, 2]);
             //int aa = Convert.ToInt32(Math.Sqrt(map.Length));
-            for (int j = 0; j <= map.GetLength(1) ; j++)
+            //for (int j = 0; j <= map.GetLength(1) ; j++)
+            //{
+            //    for (int i = 0; i < map.GetLength(j); i++)
+            //    {
+            //        Console.WriteLine("element {0}; j = {1}; i = {2}", map[j, i],j,i);
+
+            //        if (map[j,i] != 0)
+            //        {
+            //            Console.WriteLine("element [{0},{1}] jest rozny od zera", j,i);
+            //        }
+            //    }
+            //}
+
+            for (int j = 0; j < map.GetLength(1); j++)
             {
-                for (int i = 0; i < map.GetLength(j); i++)
+                Console.WriteLine("a" + map[j, 0]);
+                for(int i = 0; i<map.GetLength(j); i++)
                 {
-                    Console.WriteLine("element {0}; j = {1}; i = {2}", map[j, i],j,i);
+                    Console.WriteLine(map[j, i]);
 
-                    if (map[j,i] != 0)
-                    {
-                        Console.WriteLine("element [{0},{1}] jest rozny od zera", j,i);
-                    }
                 }
-            }
 
+            }
             //Console.WriteLine("polozenie miny = " + MineField.MineLocation(map));
 
             #endregion
