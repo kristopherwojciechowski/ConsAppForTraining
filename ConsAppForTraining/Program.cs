@@ -171,6 +171,8 @@ namespace ConsAppForTraining
 
             Console.WriteLine("rozwiazanie A: " + rozwiazanieA);
             Console.WriteLine("rozwiazanie B: " + Morse.ThueMorse(n));
+            Console.WriteLine("rozwiazanie C " + Mors.ThueMors(n));
+
 
             Console.WriteLine("ilosc elementow w stringu: " + Morse.ThueMorse(n).Length);
 
